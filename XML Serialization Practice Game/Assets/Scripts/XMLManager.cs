@@ -19,7 +19,16 @@ public class XMLManager : MonoBehaviour {
 
 	//List of items
 	public ItemDatabase itemDB;
+
+	public void SaveItems(){
+		//open a new xml file
+		XmlSerializer serializer = new XmlSerializer(typeof(ItemDatabase));
+		FileStream stream = new FileStream (Application.dataPath + "/StreamingFiles/XML/item_data.xml", FileMode.Create);
+		serializer.Serialize (stream, itemDB);
+		stream.Close ();
+	}
 }
+
 
 [System.Serializable]
 public class ItemEntry {
@@ -30,6 +39,7 @@ public class ItemEntry {
 
 [System.Serializable]
 public class ItemDatabase{
+	[XmlArray("CombatEquiptment")]
 	public List<ItemEntry> list = new List<ItemEntry> ();
 
 }

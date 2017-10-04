@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ItemDisplay.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ItemBlock.cs" Line="12" Column="45" />
+      <File FileName="Assets/Scripts/ItemDisplay.cs" Line="18" Column="10" />
+      <File FileName="Assets/Scripts/XMLManager.cs" Line="21" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
